@@ -1,6 +1,46 @@
 .App {
   text-align: center;
 }
+.add-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  gap: 1rem;
+  width: 50%;
+}
+.add-post button {
+  font-weight: bold;
+  padding: 0.4rem 1rem;
+  border-radius: 1rem;
+  border: 0.2rem solid #282c34;
+  background-color: #0cf714;
+}
+.add-post button:hover {
+  color: white;
+  background-color: #008404;
+}
+.add-post input {
+  padding: 0.4rem 1rem;
+}
+
+.nav-top ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0.2rem 0.8rem;
+  margin: 0;
+  background-color: #282c34;
+}
+.nav-top li {
+  background-color: beige;
+  padding: 0.2rem 0.8rem;
+}
+.nav-top li:hover {
+  background-color: rgb(220, 241, 245);
+}
 
 .App-logo {
   height: 40vmin;
